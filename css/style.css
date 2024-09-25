@@ -43,7 +43,7 @@ a {
 
 .header {
   padding: 40px 37px 113px;
-  background: url(./images/header-bg.png) no-repeat center / cover;
+  background: url(../images/header-bg.png) no-repeat center / cover;
   color: #fff;
   border-radius: 15px;
 }
