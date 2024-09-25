@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 46px;
+  font-family: "Inter";
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 384px;
+  margin: auto;
+}
+
+.page-wrapper {
+  max-width: 430px;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 8px 3px 30px 0px rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+}
+
+.header {
+  padding: 40px 37px 113px;
+  background: url(/images/header-bg.png) no-repeat center / cover;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.title-box {
+  margin-top: -49px;
+  padding: 12px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #453f3f;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title-text-box p {
+  margin-top: 3px;
+}
+
+.info-box {
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 14px 16px 26px 16px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+}
+
+.button {
+  height: 50px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wtspp {
+  background-color: #25d366;
+}
+
+.vbr {
+  background-color: #754a91;
+}
+
+.tg {
+  background-color: #37aee2;
+}
+
+.info-text-box {
+  margin-top: 39px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-box-item {
+  color: #453f3f;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.links {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link-button {
+  padding-left: 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 5px;
+}
+
+.review {
+  background-color: #686262;
+}
+
+.vk {
+  background-color: #2787f5;
+}
